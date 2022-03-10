@@ -7,8 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class RootController {
 
+    /*
+     *Method : GET
+     * Path: /nasa/info
+     * Host : localhost 4000
+     * URL: http://localhost:4000/
+     **/
+
     @GetMapping("/")
-    public String rootRoute (){
+    private String rootRoute (){
 
         return "You requested the root route ";
     }
